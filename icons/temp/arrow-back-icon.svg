@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewbox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon">
+<title>arrow-back</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(448 2391)">
+<g id="arrow-back">
+<use xlink:href="#path0_fill" transform="translate(-448 -2391)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 24 10.5L 5.745 10.5L 14.13 2.115L 12 0L 0 12L 12 24L 14.115 21.885L 5.745 13.5L 24 13.5L 24 10.5Z"/>
+</defs>
+</svg>

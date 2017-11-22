@@ -1,0 +1,12 @@
+<svg width="21" height="24" viewbox="0 0 21 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="icon">
+<title>bell</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(261 2346)">
+<g id="bell">
+<use xlink:href="#path0_fill" transform="translate(-261 -2346)"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 10.2492 24C 11.688 24 12.8652 22.8119 12.8652 21.3732L 7.63327 21.3732C 7.63327 22.8119 8.79738 24 10.2492 24ZM 18.3117 16.4948L 18.3117 11.1178C 18.3117 7.10233 16.1666 3.74082 12.4258 2.85139L 12.4258 1.96197C 12.4258 0.876346 11.5495 0 10.4638 0C 9.37821 0 8.50186 0.876346 8.50186 1.96197L 8.50186 2.85139C 4.74796 3.74082 2.61596 7.08924 2.61596 11.1178L 2.61596 16.4948L 0 19.1108L 0 20.4188L 20.9277 20.4188L 20.9277 19.1108L 18.3117 16.4948Z"/>
+</defs>
+</svg>
