@@ -1,0 +1,13 @@
+pages:
+  stage: deploy
+  tags:
+    - pages
+  script:
+  - mkdir .public
+  - cp -r icons/sprite .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
