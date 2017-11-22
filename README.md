@@ -36,7 +36,10 @@ $ npm install
 The gulp task uses this as an entry point for the svg files.
 *The filename is used to name the icons.*
 
-**icons/sprite folder** - The output folder with the generated sprite placed in svg/icons.svg and a [sprite.stack.htm demo file.](https://git.cwi.com.br/Turistur/Icons/blob/master/icons/sprite/sprite.stack.html)
+**icons/sprite folder** - The output folder with the generated sprite placed in svg/icons.svg and a [sprite.stack.html demo file.](https://git.cwi.com.br/Turistur/Icons/blob/master/icons/sprite/sprite.stack.html)
+
+**sprite.stack.html** - A file that displays all icons with usage examples. Inside this file, there is and array variable *allIcons*, that list the names of all icons.
+
 
 ## How to use 
 

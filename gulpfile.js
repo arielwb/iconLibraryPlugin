@@ -59,7 +59,10 @@ gulp.task('svgicons', ['optimize'], () => {
                 stack: {
                     dest: '.',
                     sprite: 'svg/icons.svg',
-                    example: true
+                    example: {
+                        template: 'icons/template/sprite.html'
+                    }
+                    
                 },
             }
         }))
