@@ -1,34 +1,22 @@
 
 var gulp = require('gulp');
 var svgSprite = require('gulp-svg-sprite');
-var cheerio = require('gulp-cheerio');
-var changed = require('gulp-changed');
 var svgo = require('gulp-svgo');
-
+var jsmin = require('gulp-jsmin');
+var rename = require('gulp-rename');
+var runSequence = require('run-sequence');
 
 var paths = {
     srcIcons: 'icons/svg/*.svg',
-    tempIcons: 'icons/temp', // so we never overwrite original files
+    tempIcons: 'icons/temp',
     srcIconsTemp: 'icons/temp/*.svg',
     destSnippets: 'icons/sprite',
-    dist: 'dist/'
+    srcPlugin: 'iconPickerPlugin/ttIcons.js',
+    srcMinPlugin: 'iconPickerPlugin/ttIcons.min.js',
+    destPlugin: 'iconPickerPlugin/',
+    pluginExample: 'iconPickerPlugin/example/app/scripts/'
 };
 
-gulp.task('icon-class', () => {
-    return gulp
-        .src(paths.srcIcons)
-        .pipe(changed(paths.tempIcons))
-        .pipe(cheerio({
-            run: function ($, file) {
-                var $svg = $('svg');
-                if (file.relative.indexOf('-full-color') >= 0) {
-                    $svg.addClass('icon icon--full-color')
-                }
-                $svg.addClass('icon');
-            }
-        }))
-        .pipe(gulp.dest(paths.tempIcons));
-});
 
 gulp.task('optimize', () => {
 
@@ -45,7 +33,7 @@ gulp.task('optimize', () => {
         .pipe(gulp.dest(paths.tempIcons));
 });
 
-gulp.task('svgicons', ['optimize'], () => {
+gulp.task('svgicons', () => {
     gulp.src(paths.srcIconsTemp)
         .pipe(svgSprite({
             svg: {
@@ -67,3 +55,25 @@ gulp.task('svgicons', ['optimize'], () => {
         })
         .pipe(gulp.dest(paths.destSnippets));
 });
+
+gulp.task('jsmin', () => {
+    gulp.src(paths.srcPlugin)
+        .pipe(jsmin())
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(gulp.dest(paths.destPlugin));
+});
+
+gulp.task('example', function () {
+
+    gulp.src(paths.srcMinPlugin)
+        .pipe(gulp.dest(paths.pluginExample));
+});
+
+gulp.task('default', function () {
+    runSequence('optimize',
+        'svgicons',
+        'jsmin',
+        'example');
+});
+
+
