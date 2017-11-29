@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,35 +18,63 @@
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-    
-  </head>
-  <body>
+
+</head>
+
+<body>
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
+
     <div class="container">
-      <div class="header">  
-        <h3 class="text-muted">Turistur icon library example</h3>
-      </div>
+        <div class="header">
+            <h1 class="text-muted">Turistur icon library </h1>
+        </div>
 
-      <input type="hidden" id="icon-category">
-      <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-category">+ icone</button>
+        
+        <h3 class="text-muted">Instruções:</h3>
+        
+        <p>
+            Inclua o script
+            <br>
+            <pre>&lt;script src="pathTo/ttIcons.js"&gt;&lt;/script&gt;</pre>
+            <br>
+        </p>
+        <p>
+            Adicione um elemento com a classe <code>tt-icon-picker</code> <br>
+            Adicione a este elemento o atributo <code>data-controls</code> com o id do input que deve ter seu valor setado por este botão
+            <br>
+            <pre>&lt;button class="tt-icon-picker" data-controls="icon-category" &gt;&lt;/button&gt;</pre>
+            <br>
+        </p>
+        <p>
+            Adicione um input com o <code>id</code> informado no botão
+            <br>
+            <pre>&lt;input type="hidden" id="icon-category"&gt;&lt;/input&gt;</pre>
+            <br>
+        </p>
 
-      <input type="hidden" id="icon-product">
-      <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-product">+ icone</button>
+        <h3 class="text-muted">Exemplo:</h3>
+        
+        <input type="hidden" id="icon-category">
+        <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-category">+ icone</button>
 
-      
+        <input type="hidden" id="icon-product">
+        <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-product">+ icone</button>
+
+
     </div>
-    
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
+        (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+            function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+            e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
     </script>
 
     <!-- build:js scripts/vendor.js -->
@@ -53,7 +82,7 @@
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -68,10 +97,11 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
     <!-- build:js scripts/main.js -->
     <script src="scripts/ttIcons.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
-  </body>
+</body>
+
 </html>
