@@ -34,7 +34,7 @@ gulp.task('optimize', () => {
 });
 
 gulp.task('svgicons', () => {
-    gulp.src(paths.srcIconsTemp)
+    return gulp.src(paths.srcIconsTemp)
         .pipe(svgSprite({
             svg: {
                 namespaceClassnames: false,
@@ -57,7 +57,7 @@ gulp.task('svgicons', () => {
 });
 
 gulp.task('jsmin', () => {
-    gulp.src(paths.srcPlugin)
+    return gulp.src(paths.srcPlugin)
         .pipe(jsmin())
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest(paths.destPlugin));
@@ -65,15 +65,16 @@ gulp.task('jsmin', () => {
 
 gulp.task('example', function () {
 
-    gulp.src(paths.srcMinPlugin)
+    return gulp.src(paths.srcMinPlugin)
         .pipe(gulp.dest(paths.pluginExample));
 });
 
-gulp.task('default', function () {
+gulp.task('default', function (callback) {
     runSequence('optimize',
         'svgicons',
         'jsmin',
-        'example');
+        'example',
+        callback);
 });
 
 
