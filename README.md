@@ -58,5 +58,5 @@ $ gulp serve
 
 ```bash
 $ cd into-root-folder
-$ gulp plugin
+$ gulp
 ```
