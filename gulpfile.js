@@ -53,10 +53,11 @@ gulp.task('svgicons', ['optimize'], () => {
             },
             mode: {
                 symbol: {
-                    dest: '.',
-                    sprite: 'svg/icons.svg',
+                    dest: '../../',
+                    sprite: './icons/sprite/icons.svg',
                     example: {
-                        template: 'icons/template/sprite.html'
+                        template: 'icons/template/ttIcons.js',
+                        dest: './iconPickerPlugin/ttIcons.js'
                     }
                 }
             }
