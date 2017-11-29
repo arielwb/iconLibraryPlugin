@@ -30,20 +30,16 @@ gulp.task('icon-class', () => {
         .pipe(gulp.dest(paths.tempIcons));
 });
 
-gulp.task('optimize', ['icon-class'], () => {
+gulp.task('optimize', () => {
 
-    return gulp.src(paths.srcIconsTemp)
-        .pipe(changed(paths.tempIcons))
+    return gulp.src(paths.srcIcons)
         .pipe(svgo({
             plugins: [
-                {
-                    removeDesc: {
-                        removeAny: true
-                    }
-                },
-                {
-                    removeTitle: {}
-                }
+                { removeDesc: { removeAny: true } },
+                { removeTitle: {} },
+                { cleanupAttrs: {} },
+                { collapseGroups: {} },
+
             ]
         }))
         .pipe(gulp.dest(paths.tempIcons));
@@ -53,17 +49,16 @@ gulp.task('svgicons', ['optimize'], () => {
     gulp.src(paths.srcIconsTemp)
         .pipe(svgSprite({
             svg: {
-                namespaceClassnames: false
+                namespaceClassnames: false,
             },
             mode: {
-                stack: {
+                symbol: {
                     dest: '.',
                     sprite: 'svg/icons.svg',
                     example: {
                         template: 'icons/template/sprite.html'
                     }
-                    
-                },
+                }
             }
         }))
         .on('error', (error) => {
