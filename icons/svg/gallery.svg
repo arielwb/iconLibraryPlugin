@@ -1,0 +1,17 @@
+<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>gallery</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(5906 460)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -5906 -460L -5870 -460L -5870 -424L -5906 -424L -5906 -460Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="gallery" clip-path="url(#clip-0)">
+<g id="gallery">
+<use xlink:href="#path0_fill" transform="translate(-5898 -452)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 20 14L 20 2C 20 0.9 19.1 0 18 0L 6 0C 4.9 0 4 0.9 4 2L 4 14C 4 15.1 4.9 16 6 16L 18 16C 19.1 16 20 15.1 20 14ZM 9 10L 11.03 12.71L 14 9L 18 14L 6 14L 9 10ZM 0 4L 0 18C 0 19.1 0.9 20 2 20L 16 20L 16 18L 2 18L 2 4L 0 4Z"/>
+</defs>
+</svg>

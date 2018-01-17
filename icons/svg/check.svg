@@ -1,0 +1,17 @@
+<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>check</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6107 320)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -6107 -320L -6071 -320L -6071 -284L -6107 -284L -6107 -320Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="check" clip-path="url(#clip-0)">
+<g id="check">
+<use xlink:href="#path0_fill" transform="translate(-6097 -308)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 6.15347 12.3068L 0 6.15322L 2.46139 3.6918L 6.15347 7.38392L 13.5386 0L 16 2.46142L 6.15347 12.3068Z"/>
+</defs>
+</svg>

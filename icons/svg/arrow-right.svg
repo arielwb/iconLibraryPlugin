@@ -1,0 +1,17 @@
+<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>arrow-right</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(5967 1090)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -5967 -1090L -5931 -1090L -5931 -1054L -5967 -1054L -5967 -1090Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="arrow-right" clip-path="url(#clip-0)">
+<g id="arrow-right">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 -5941 -1080)"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 16 6.66667L 5.10667 6.66667L 9.89333 1.88L 8 0L 0 8L 8 16L 9.88 14.12L 5.10667 9.33333L 16 9.33333L 16 6.66667Z"/>
+</defs>
+</svg>

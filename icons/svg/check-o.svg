@@ -1,12 +1,17 @@
-<svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>check-o</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(211 2346)">
+<g id="Canvas" transform="translate(5906 1090)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M -5906 -1090L -5870 -1090L -5870 -1054L -5906 -1054L -5906 -1090Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="check-o" clip-path="url(#clip-0)">
 <g id="check-o">
-<use xlink:href="#path0_fill" transform="translate(-211 -2346)"/>
+<use xlink:href="#path0_fill" transform="translate(-5898 -1082)"/>
+</g>
 </g>
 </g>
 <defs>
-<path id="path0_fill" d="M 12.0002 0C 5.37109 0 0 5.37115 0 12C 0 18.6279 5.37109 24 12.0002 24C 18.628 24 24 18.6279 24 12C 23.9997 5.37115 18.6277 0 12.0002 0ZM 10.3022 17.6563L 4.64599 12L 6.90848 9.73748L 10.3022 13.1313L 17.0906 6.34399L 19.3531 8.60652L 10.3022 17.6563Z"/>
+<path id="path0_fill" d="M 10.0001 0C 4.4759 0 0 4.47596 0 10C 0 15.5233 4.4759 20 10.0001 20C 15.5233 20 20 15.5233 20 10C 19.9997 4.47596 15.5231 0 10.0001 0ZM 8.58519 14.7136L 3.87166 10L 5.75707 8.11456L 8.58519 10.9427L 14.2422 5.28666L 16.1276 7.1721L 8.58519 14.7136Z"/>
 </defs>
 </svg>
