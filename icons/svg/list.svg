@@ -1,19 +1,14 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="22" height="17" viewBox="0 0 22 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>list</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(5967 950)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -5967 -950L -5931 -950L -5931 -914L -5967 -914L -5967 -950Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="list" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6602 940)">
 <g id="list">
-<use xlink:href="#path0_fill" transform="translate(-5960 -940)"/>
-<use xlink:href="#path1_fill" transform="translate(-5960 -940)"/>
-<use xlink:href="#path2_fill" transform="translate(-5960 -940)"/>
-<use xlink:href="#path3_fill" transform="translate(-5960 -940)"/>
-<use xlink:href="#path4_fill" transform="translate(-5960 -940)"/>
-<use xlink:href="#path5_fill" transform="translate(-5960 -940)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6602 -940)"/>
+<use xlink:href="#path1_fill" transform="translate(-6602 -940)"/>
+<use xlink:href="#path2_fill" transform="translate(-6602 -940)"/>
+<use xlink:href="#path3_fill" transform="translate(-6602 -940)"/>
+<use xlink:href="#path4_fill" transform="translate(-6602 -940)"/>
+<use xlink:href="#path5_fill" transform="translate(-6602 -940)"/>
 </g>
 </g>
 <defs>

@@ -1,17 +1,12 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>grid</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(5967 880)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -5967 -880L -5931 -880L -5931 -844L -5967 -844L -5967 -880Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="grid" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6601 872)">
 <g id="grid">
-<use xlink:href="#path0_fill" transform="translate(-5959 -872)"/>
-<use xlink:href="#path1_fill" transform="translate(-5959 -872)"/>
-<use xlink:href="#path2_fill" transform="translate(-5959 -872)"/>
-<use xlink:href="#path3_fill" transform="translate(-5959 -872)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6601 -872)"/>
+<use xlink:href="#path1_fill" transform="translate(-6601 -872)"/>
+<use xlink:href="#path2_fill" transform="translate(-6601 -872)"/>
+<use xlink:href="#path3_fill" transform="translate(-6601 -872)"/>
 </g>
 </g>
 <defs>

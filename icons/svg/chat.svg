@@ -1,15 +1,10 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="24" height="22" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>chat</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(5967 810)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -5967 -810L -5931 -810L -5931 -774L -5967 -774L -5967 -810Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="chat" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6603 803)">
 <g id="chat">
-<use xlink:href="#path0_fill" transform="translate(-5961 -803)"/>
-<use xlink:href="#path1_fill" transform="translate(-5961 -803)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6603 -803)"/>
+<use xlink:href="#path1_fill" transform="translate(-6603 -803)"/>
 </g>
 </g>
 <defs>

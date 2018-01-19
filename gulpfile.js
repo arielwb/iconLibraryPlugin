@@ -27,7 +27,12 @@ gulp.task('optimize', () => {
                 { removeTitle: {} },
                 { cleanupAttrs: {} },
                 { collapseGroups: {} },
-
+                { convertTransform: {} },
+                { convertPathData: {} },
+                { removeEmptyContainers: {} },
+                { removeUnknownsAndDefaults: {} },
+                { cleanupNumericValues: {} },
+                { removeElementsByAttr: {} },
             ]
         }))
         .pipe(gulp.dest(paths.tempIcons));

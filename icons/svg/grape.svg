@@ -1,22 +1,17 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="24" height="30" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>grape</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(6037 740)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -6037 -740L -6001 -740L -6001 -704L -6037 -704L -6037 -740Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="grape" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6673 737)">
 <g id="grape">
-<use xlink:href="#path0_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path1_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path2_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path3_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path4_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path5_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path6_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path7_fill" transform="translate(-6031 -737)"/>
-<use xlink:href="#path8_fill" transform="translate(-6031 -737)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path1_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path2_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path3_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path4_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path5_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path6_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path7_fill" transform="translate(-6673 -737)"/>
+<use xlink:href="#path8_fill" transform="translate(-6673 -737)"/>
 </g>
 </g>
 <defs>
@@ -28,6 +23,6 @@
 <path id="path5_fill" d="M 3.36329 15.8746C 5.22071 15.8746 6.72657 14.3689 6.72657 12.5114C 6.72657 10.654 5.22071 9.14823 3.36329 9.14823C 1.50586 9.14823 0 10.654 0 12.5114C 0 14.3689 1.50586 15.8746 3.36329 15.8746Z"/>
 <path id="path6_fill" d="M 8.07204 19.2378C 8.07204 21.0952 6.56617 22.601 4.70875 22.601C 2.85132 22.601 1.34546 21.0952 1.34546 19.2378C 1.34546 17.3803 2.85132 15.8746 4.70875 15.8746C 6.56617 15.8746 8.07204 17.3803 8.07204 19.2378Z"/>
 <path id="path7_fill" d="M 6.05384 30C 7.91127 30 9.41713 28.4942 9.41713 26.6368C 9.41713 24.7794 7.91127 23.2736 6.05384 23.2736C 4.19642 23.2736 2.69056 24.7794 2.69056 26.6368C 2.69056 28.4942 4.19642 30 6.05384 30Z"/>
-<path id="path8_fill" d="M 14.7982 21.9284C 14.7982 23.7858 13.2924 25.2916 11.435 25.2916C 9.57753 25.2916 8.07167 23.7858 8.07167 21.9284C 8.07167 20.0709 9.57753 18.5652 11.435 18.5652C 13.2924 18.5652 14.7982 20.0709 14.7982 21.9284Z"/>
+<path id="path8_fill" d="M 14.7982 21.9284C 14.7982 23.7858 13.2924 25.2916 11.435 25.2916C 9.57753 25.2916 8.07167 23.7858 8.07167 21.9284C 8.07167 20.071 9.57753 18.5652 11.435 18.5652C 13.2924 18.5652 14.7982 20.071 14.7982 21.9284Z"/>
 </defs>
 </svg>

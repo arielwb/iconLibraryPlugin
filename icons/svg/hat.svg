@@ -1,15 +1,10 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="30" height="20" viewBox="0 0 30 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>hat</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(6037 1020)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -6037 -1020L -6001 -1020L -6001 -984L -6037 -984L -6037 -1020Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="hat" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6676 1012)">
 <g id="hat">
-<use xlink:href="#path0_fill" transform="translate(-6034 -1012)"/>
-<use xlink:href="#path1_fill" transform="translate(-6034 -1012)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6676 -1012)"/>
+<use xlink:href="#path1_fill" transform="translate(-6676 -1012)"/>
 </g>
 </g>
 <defs>

@@ -1,14 +1,9 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="24" height="23" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>star</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(5967 740)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -5967 -740L -5931 -740L -5931 -704L -5967 -704L -5967 -740Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="star" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6603 733)">
 <g id="star">
-<use xlink:href="#path0_fill" transform="translate(-5961 -733)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6603 -733)"/>
 </g>
 </g>
 <defs>

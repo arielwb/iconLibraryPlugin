@@ -1,14 +1,9 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="18" height="20" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>checkout</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(5906 880)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -5906 -880L -5870 -880L -5870 -844L -5906 -844L -5906 -880Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="checkout" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6539 872)">
 <g id="checkout">
-<use xlink:href="#path0_fill" transform="translate(-5897 -872)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6539 -872)"/>
 </g>
 </g>
 <defs>

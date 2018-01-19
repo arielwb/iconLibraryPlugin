@@ -1,14 +1,9 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="30" height="20" viewBox="0 0 30 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>pass</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(5967 320)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -5967 -320L -5931 -320L -5931 -284L -5967 -284L -5967 -320Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="pass" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6606 312)">
 <g id="pass">
-<use xlink:href="#path0_fill" transform="translate(-5964 -312)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6606 -312)"/>
 </g>
 </g>
 <defs>

@@ -1,15 +1,10 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="17" height="8" viewBox="0 0 17 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>double-check</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(6177 810)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -6177 -810L -6141 -810L -6141 -774L -6177 -774L -6177 -810Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="double-check" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6809 796)">
 <g id="double-check">
-<use xlink:href="#path0_fill" transform="translate(-6167 -796)"/>
-<use xlink:href="#path1_fill" transform="translate(-6167 -796)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6809 -796)"/>
+<use xlink:href="#path1_fill" transform="translate(-6809 -796)"/>
 </g>
 </g>
 <defs>

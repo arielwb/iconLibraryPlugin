@@ -1,15 +1,10 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="25" height="26" viewBox="0 0 25 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>map</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(6177 670)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -6177 -670L -6141 -670L -6141 -634L -6177 -634L -6177 -670Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="map" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6813 665)">
 <g id="map">
-<use xlink:href="#path0_fill" transform="translate(-6171 -665)"/>
-<use xlink:href="#path1_fill" transform="translate(-6171 -665)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6813 -665)"/>
+<use xlink:href="#path1_fill" transform="translate(-6813 -665)"/>
 </g>
 </g>
 <defs>

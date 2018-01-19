@@ -5,7 +5,8 @@ var ttIcons = (function ($) {
             title: 'Escolha um ícone',
             closeButton: 'Fechar',
             saveButton: 'Salvar',
-            size: 'md',
+            iconPickerDefaultText: 'Salvar',
+            size: 'lg',
             iconList: [
                 {{#shapes }}	
                     "{{name}}",
@@ -26,8 +27,8 @@ var ttIcons = (function ($) {
                                 <ul class="list-unstyled list-inline row">
                                     ${ttModal.config.iconList.map(icon =>
                 `
-                                        <li class="col-xs-4 col-md-2">
-                                            <button class="btn btn-default tt-icon-modal-button" data-name="${icon}" style="height: 85px; margin-bottom: 10px;">
+                                        <li class="col-xs-2 col-md-1">
+                                            <button class="btn btn-default tt-icon-modal-button" data-name="${icon}" style="height: 50px; margin-bottom: 10px;">
                                                 <svg style="max-width: 100%; max-height: 100%;">
                                                     <use xlink:href="#${icon}"></use>
                                                 </svg>
@@ -51,7 +52,7 @@ var ttIcons = (function ($) {
                 ttModal.el.pickerBtns = $('.tt-icon-modal-button');
                 ttModal.el.saveBtn = $('#tt-modal-save');
                 ttModal.el.iconPicker = $('.tt-icon-picker');
-            },
+            }
         },
         init: () => {
             ttModal.create();
@@ -61,13 +62,24 @@ var ttIcons = (function ($) {
             $('body').append(ttModal.el.template);
             ttModal.el.init();
             ttModal.createListeners();
+            ttModal.addDefaultBtnText();
         },
         createListeners: () => {
-            ttModal.el.pickerBtns.click(ttModal.chooseIcon);
-            ttModal.el.saveBtn.click(ttModal.save);
-            ttModal.el.iconPicker.click(ttModal.open);
+            ttModal.el.pickerBtns.click(ttModal.onIconClick);
+            ttModal.el.saveBtn.click(ttModal.onSave);
+            ttModal.el.iconPicker.click(ttModal.onOpen);
         },
-        chooseIcon: (event) => {
+        addDefaultBtnText: () => {
+            ttModal.el.iconPicker.each(
+                (i, btn) => {
+                    let button = $(btn);
+                    if(!button.html()){
+                        button.html('<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Ícone');
+                    }
+                }
+            )
+        },
+        onIconClick: (event) => {
 
             let el = $(event.target.closest('.tt-icon-modal-button'));
             ttModal.el.pickerBtns.removeClass('active');
@@ -75,16 +87,19 @@ var ttIcons = (function ($) {
             ttModal.currentSelection = el.data('name');
             el.addClass('active');
         },
-        open: (event) => {
+        onOpen: (event) => {
             ttModal.el.currentButton = $(event.target.closest('.tt-icon-picker'));
             ttModal.el.currentInput = $('#' + ttModal.el.currentButton.data('controls'));
             ttModal.el.modal.modal('show');
         },
-        save: () => {
-            ttModal.el.currentInput.val(ttModal.currentSelection);
+        onSave: () => {
+            ttModal.save(ttModal.currentSelection)
+        },
+        save: (icon) => {
+            ttModal.el.currentInput.val(icon);
             ttModal.el.currentButton.html(`
             <svg style="max-width: 100%; max-height: 100%;">
-                <use xlink:href="#${ttModal.currentSelection}"></use>
+                <use xlink:href="#${icon}"></use>
             </svg>
             `)
         }
@@ -95,6 +110,7 @@ var ttIcons = (function ($) {
         init: () => {
             ttModal.init();
             ttIcons.appendIconLibrary();
+            ttIcons.loadPreviousSelection();
         },
         el: {
             iconLibrary: $('<div>').addClass('tt-icon-library hidden'),
@@ -108,12 +124,24 @@ var ttIcons = (function ($) {
         appendIconLibrary: () => {
             ttIcons.el.body.append(ttIcons.el.iconLibrary);
             $(ttIcons.el.svgIcons).appendTo(ttIcons.el.iconLibrary)
+        },
+        loadPreviousSelection: () => {
+            ttModal.el.iconPicker.each( (i, btn) => {
+                let button = $(btn);
+                let input = $('#' + button.data('controls'));
+                let icon = input.val();
+                if (icon) {
+                    ttModal.el.currentButton = button;
+                    ttModal.el.currentInput = input;
+                    ttModal.save(icon);
+                }
+            });
         }
     }
 
     $(document).ready(() => {
         ttIcons.init();
-    })
+    });
 
 }(jQuery));
 

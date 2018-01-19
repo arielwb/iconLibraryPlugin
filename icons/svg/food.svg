@@ -1,17 +1,12 @@
-<svg width="36" height="36" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="30" height="25" viewBox="0 0 30 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>food</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(6037 390)">
-<clipPath id="clip-0" clip-rule="evenodd">
-<path d="M -6037 -390L -6001 -390L -6001 -354L -6037 -354L -6037 -390Z" fill="#FFFFFF"/>
-</clipPath>
-<g id="food" clip-path="url(#clip-0)">
+<g id="Canvas" transform="translate(6676 384)">
 <g id="food">
-<use xlink:href="#path0_fill" transform="translate(-6034 -384)"/>
-<use xlink:href="#path1_fill" transform="translate(-6034 -384)"/>
-<use xlink:href="#path2_fill" transform="translate(-6034 -384)"/>
-<use xlink:href="#path3_fill" transform="translate(-6034 -384)"/>
-</g>
+<use xlink:href="#path0_fill" transform="translate(-6676 -384)"/>
+<use xlink:href="#path1_fill" transform="translate(-6676 -384)"/>
+<use xlink:href="#path2_fill" transform="translate(-6676 -384)"/>
+<use xlink:href="#path3_fill" transform="translate(-6676 -384)"/>
 </g>
 </g>
 <defs>
