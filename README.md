@@ -1,7 +1,8 @@
-# Turistur icons
+# Icon Library Plugin 
 
-This projects is used to generate an svg icon sprite, to be used on Turistur App and Admin.
-
+This projects is used to generate an svg icon sprite.
+The idea came from the necessity of a shared icon library between the content manager and client code.
+Also, inside the folder iconPickerPlugin, we have a bootstrap/jquery plugin to easily pick an icon to associate with some data.
 
 ## Getting started:
 
