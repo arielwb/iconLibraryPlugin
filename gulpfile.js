@@ -33,6 +33,7 @@ gulp.task('optimize', () => {
                 { removeUnknownsAndDefaults: {} },
                 { cleanupNumericValues: {} },
                 { removeElementsByAttr: {} },
+                { removeAttrs: { attrs: 'fill' } },
             ]
         }))
         .pipe(gulp.dest(paths.tempIcons));

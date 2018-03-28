@@ -5,9 +5,14 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Turistur icon library example</title>
+    <title>Icon library example</title>
 
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- build:css styles/vendor.css -->
@@ -25,41 +30,74 @@
     <!--[if IE]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="https://arielwb.github.io/" class="">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            Ariel Borges
+                        </a>
+                    </li>
+                </ul>
 
+
+            </div>
+            <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="https://github.com/arielwb/iconLibraryPlugin/">Github repo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container">
         <div class="header">
-            <h1 class="text-muted">Turistur icon library </h1>
+            <h1 class="text-muted">Icon library </h1>
         </div>
 
-        
-        <h3 class="text-muted">Instruções:</h3>
-        
+
+        <h3 class="text-muted">Instructions:</h3>
+
         <p>
-            Inclua o script
+            Include the script
             <br>
             <pre>&lt;script src="pathTo/ttIcons.js"&gt;&lt;/script&gt;</pre>
             <br>
         </p>
         <p>
-            Adicione um elemento com a classe <code>tt-icon-picker</code> <br>
-            Neste elemento, adicione o atributo <code>data-controls</code> com o id do input que deve ter seu valor setado por este botão
+
+            Add an element with a
+            <code>tt-icon-picker</code> class
+            <br> In this element, add a
+            <code>data-controls</code> attribute with the id of the input that should have it´s value controlled by this button
             <br>
             <pre>&lt;button class="tt-icon-picker" data-controls="icon-category" &gt;&lt;/button&gt;</pre>
             <br>
         </p>
         <p>
-            Adicione um input com o <code>id</code> informado no botão
+            Add and input with the same
+            <code>id</code> of the data-controls value
             <br>
             <pre>&lt;input type="hidden" id="icon-category"&gt;&lt;/input&gt;</pre>
             <br>
         </p>
 
-        <h3 class="text-muted">Exemplo:</h3>
-        
-        <input type="hidden" id="icon-category" value="lock">
-        <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-category" >+ icone</button>
+        <h3 class="text-muted">Sample:</h3>
 
-        <input type="hidden" id="icon-product" >
+        <input type="hidden" id="icon-category" value="lock">
+        <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-category">+ icon</button>
+
+        <input type="hidden" id="icon-product">
         <button class="btn btn-primary tt-icon-picker" style="width: 80px; height: 80px;" data-controls="icon-product"></button>
 
 
@@ -68,13 +106,13 @@
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l; b[l] || (b[l] =
-            function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+            b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+                function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
             e = o.createElement(i); r = o.getElementsByTagName(i)[0];
             e.src = 'https://www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e, r)
         }(window, document, 'script', 'ga'));
-        ga('create', 'UA-XXXXX-X'); ga('send', 'pageview');
+        ga('create', 'UA-114493066-1'); ga('send', 'pageview');
     </script>
 
     <!-- build:js scripts/vendor.js -->

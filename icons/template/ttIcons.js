@@ -1,4 +1,4 @@
-var ttIcons = (function ($) {
+window.ttIcons = (function ($) {
 
     let ttModal = {
         config: {
@@ -142,6 +142,11 @@ var ttIcons = (function ($) {
     $(document).ready(() => {
         ttIcons.init();
     });
+
+    return {
+        ttModal: ttModal,
+        ttIcons: ttIcons
+    }
 
 }(jQuery));
 
